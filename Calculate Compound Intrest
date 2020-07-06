@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
+
+void main(){
+  float PAmount, ROI, n, CIFuture, CI;
+  
+  printf("Enter the Principal Amount: \n");
+  scanf("%f", &PAmount);
+  
+  printf("Enter the Rate of Interest: \n");
+  scanf("%f", &ROI);
+  
+  printf("Enter the Time Period in year: \n");
+  scanf("%f", &n);
+  
+  CIFuture = PAmaount * (pow (( 1 + ROI/100), n));
+  CI = CIFuture - PAmount;
+  
+  printf("Future Compound Interest for Principal Amount %.2f is = %.2f", PAmount, CIFuture);
+  
+  printf("Compound Interest for Principal Amount %.2f is = %.2f", PAmount, CI);
+  
+  getch();
+  }
