@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main(){
+  int num1, num2, Product;
+ 
+  printf("Enter First Number: ");
+  scanf("%d", &num1);
+  
+  printf("Enter second Number: ");
+  scanf("%d", &num2;
+  
+  Product = num1 * num2;
+  
+  printf("%d * %d = %d", num1, nu2, Product);
+  
+  getch();
+  
+}
