@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
+
+void main()
+{
+    int num;
+    double squareRoot;
+    
+    printf("Enter Number: ");
+    scanf("%d",&num);
+
+    squareRoot =  sqrt(num);
+    printf("Square root of %d =  %lf", num, squareRoot);
+
+    getch();
+}
