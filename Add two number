@@ -1,5 +1,7 @@
 #include<stdio.h>
-int main(){
+#include<conio.h>
+
+void main(){
   int number_1, number_2, Sum;
  
   printf("Enter First Number: ");
@@ -12,7 +14,7 @@ int main(){
   
   printf("%d + %d = %d", number_1, number_2, Sum);
   
-  return 0;
+  getch();
   
 }
 
