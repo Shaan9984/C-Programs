@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+ 
+void main()
+{
+  int number, cube;
+ 
+  printf("Enter any integer Number : ");
+  scanf("%d", &number);
+  
+  cube = number * number * number;
+  
+  printf("\n Cube of a given number %d is  =  %d", number, cube);
+ 
+  getch();
+}
