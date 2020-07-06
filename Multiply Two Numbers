@@ -12,7 +12,7 @@ void main(){
   
   Product = num1 * num2;
   
-  printf("%d * %d = %d", num1, nu2, Product);
+  printf("%d * %d = %d", num1, num2, Product);
   
   getch();
   
